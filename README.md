@@ -2,6 +2,10 @@
 # System Architecture Coursework 1 
 ## Connor Smith C0033267
 
+## Instructions
+
+To run my script please use the following command on terminal "bash mainprogram.sh"
+
 This project is to develop a series of scripts that include:
 1. Loops
 2. If else statement
