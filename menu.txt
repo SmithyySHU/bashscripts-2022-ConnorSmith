@@ -1,0 +1,4 @@
+1. read stock file
+2. read and write to stock file
+3. list current directorys
+4. send email

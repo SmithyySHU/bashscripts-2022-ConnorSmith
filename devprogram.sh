@@ -18,4 +18,27 @@ readwrite(){
     gedit 'stock.txt'
     cat  'stock.txt'
 }
-readfile
+
+email(){
+    break
+}
+
+cat menu.txt
+
+read response
+
+if [[ response -eq 1 ]]; 
+then
+    readfile
+elif [[ response -eq 2 ]];
+then
+    readwrite
+elif [[ response -eq 3 ]];
+then
+    listdir
+elif [[ response -eq 4 ]];
+then
+    email
+else 
+    echo "You have inputted an invallid option please choice from 1-4"
+fi
