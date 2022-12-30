@@ -8,4 +8,14 @@ readfile(){
     echo $line
     done < $file
 }
+
+listdir(){
+    pwd
+    ls
+}
+
+readwrite(){
+    gedit 'stock.txt'
+    cat  'stock.txt'
+}
 readfile
