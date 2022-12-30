@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 file='stock.txt'
 while read line; do
